@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "index": "https://vzan2012.github.io/angular-project/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vzan2012.github.io/angular-project/index.html",
+        "https://vzan2012.github.io/angular-project/main.02bf3956e3cd2c8b84d1.js",
+        "https://vzan2012.github.io/angular-project/polyfills.f5ce8ecea387adbb1689.js",
+        "https://vzan2012.github.io/angular-project/runtime.b57bf819d5bdce77f1c7.js",
+        "https://vzan2012.github.io/angular-project/scripts.7e2c9c3d1c6812d64062.js",
+        "https://vzan2012.github.io/angular-project/styles.ee06dbf3156687b2a356.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-128x128.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-144x144.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-152x152.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-192x192.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-384x384.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-512x512.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-72x72.png",
+        "https://vzan2012.github.io/angular-project/assets/icons/icon-96x96.png",
+        "https://vzan2012.github.io/angular-project/assets/logo.png",
+        "https://vzan2012.github.io/angular-project/assets/movie-cards/1.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-cards/2.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-cards/3.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-cards/4.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-news/1.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-news/2.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-news/3.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-news/4.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-slider/1.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-slider/2.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-slider/3.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-slider/4.jpg",
+        "https://vzan2012.github.io/angular-project/assets/movie-slider/5.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/chris-hemsworth.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/henry-cavill.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/jason-momoa.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/jason-statham.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/johnny-depp.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/robert-de-niro.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/tom-hardy.jpg",
+        "https://vzan2012.github.io/angular-project/assets/people/wesley-snipes.jpg",
+        "https://vzan2012.github.io/angular-project/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "https://vzan2012.github.io/angular-project/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "https://vzan2012.github.io/angular-project/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "https://vzan2012.github.io/angular-project/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "https://vzan2012.github.io/angular-project/fontawesome-webfont.fee66e712a8a08eef580.woff",
+        "https://vzan2012.github.io/angular-project/owl.video.play.4a37f8008959c75f619b.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-128x128.png": "1ab3911f35709ed97d5ede6d59387afba002023b",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-144x144.png": "c4a3f063974794dc40c7057fe568e50e28f44ae6",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-152x152.png": "c3d20957639ac4f930cc1fe5bf8163aa6f27a91c",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-192x192.png": "556058aab4940f7123dd749715144813232fb034",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-384x384.png": "e275b878332cd60c9b78bbea9388467339100053",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-512x512.png": "6d439d2401e9baba8d7ad51e084a155fff027b3b",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-72x72.png": "a4a63f44eae3291de98495fbed8d75728c225a1c",
+    "https://vzan2012.github.io/angular-project/assets/icons/icon-96x96.png": "7a215e4693d35d00b6655365a829e103ade42b17",
+    "https://vzan2012.github.io/angular-project/assets/logo.png": "040bd07858926743753c300750631f212759180c",
+    "https://vzan2012.github.io/angular-project/assets/movie-cards/1.jpg": "1b6342d232775fd2a39ca4e89764b3016c89e0a8",
+    "https://vzan2012.github.io/angular-project/assets/movie-cards/2.jpg": "b12023477120306773c261cddcb059388c94f0a8",
+    "https://vzan2012.github.io/angular-project/assets/movie-cards/3.jpg": "7ee26fa64ef9ee4523559630aa4cbc03d6d5bdab",
+    "https://vzan2012.github.io/angular-project/assets/movie-cards/4.jpg": "5dca1aa04821a643c67a2c6241af7f379d2a0c31",
+    "https://vzan2012.github.io/angular-project/assets/movie-news/1.jpg": "2211ae587cf9c298c610970aa41b9c334e460a10",
+    "https://vzan2012.github.io/angular-project/assets/movie-news/2.jpg": "4ab4d1dad52e007eaf049c8666891119aa50fad2",
+    "https://vzan2012.github.io/angular-project/assets/movie-news/3.jpg": "d4835821c5e50ee3abd9e7e718a6411f9c4cd32f",
+    "https://vzan2012.github.io/angular-project/assets/movie-news/4.jpg": "6e0a1ba3b71b588f359c13306b1b245b286c5b23",
+    "https://vzan2012.github.io/angular-project/assets/movie-slider/1.jpg": "075ca2f89db3872699598bac0294082bf7066e55",
+    "https://vzan2012.github.io/angular-project/assets/movie-slider/2.jpg": "b89b7bb7e6b8e77262577177df48e89c9c3bd272",
+    "https://vzan2012.github.io/angular-project/assets/movie-slider/3.jpg": "66357fc12ebde8c8c0a8ceb534e0e65501f42ecb",
+    "https://vzan2012.github.io/angular-project/assets/movie-slider/4.jpg": "b4bb93da3e2bcfe83715c90b492f546ab35966d1",
+    "https://vzan2012.github.io/angular-project/assets/movie-slider/5.jpg": "61cfad3be4366d29b1debd84e86507db1d0fa720",
+    "https://vzan2012.github.io/angular-project/assets/people/chris-hemsworth.jpg": "4a9e7a97f571744da0f0f836a4a44b0cce4205ca",
+    "https://vzan2012.github.io/angular-project/assets/people/henry-cavill.jpg": "abc4eb835cf2d7080d58ae652ec04f2e1509cf43",
+    "https://vzan2012.github.io/angular-project/assets/people/jason-momoa.jpg": "be277efeeed4134d936d703a98dc8459c4859d26",
+    "https://vzan2012.github.io/angular-project/assets/people/jason-statham.jpg": "492a61ed9d0ff793bce4040d1a7b8a3e2f42f04c",
+    "https://vzan2012.github.io/angular-project/assets/people/johnny-depp.jpg": "3a6c79bd0c7e3ee73fd397116fa59340267e58f0",
+    "https://vzan2012.github.io/angular-project/assets/people/robert-de-niro.jpg": "0341eeb3c6d596221f0ad9cd076ff588248549fa",
+    "https://vzan2012.github.io/angular-project/assets/people/tom-hardy.jpg": "7c29f87bb96f8f3bc28d68b6d2a8a7800e508573",
+    "https://vzan2012.github.io/angular-project/assets/people/wesley-snipes.jpg": "f16ac4274b7ddd7da6b720d69542da3f9f54fbe3",
+    "https://vzan2012.github.io/angular-project/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "https://vzan2012.github.io/angular-project/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "https://vzan2012.github.io/angular-project/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "https://vzan2012.github.io/angular-project/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "https://vzan2012.github.io/angular-project/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "https://vzan2012.github.io/angular-project/index.html": "1427ea6fa1cac7e26baab95acf53e9459148868e",
+    "https://vzan2012.github.io/angular-project/main.02bf3956e3cd2c8b84d1.js": "0aeae2b792d37605125fbce20b2463c8cb365e2d",
+    "https://vzan2012.github.io/angular-project/owl.video.play.4a37f8008959c75f619b.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
+    "https://vzan2012.github.io/angular-project/polyfills.f5ce8ecea387adbb1689.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "https://vzan2012.github.io/angular-project/runtime.b57bf819d5bdce77f1c7.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://vzan2012.github.io/angular-project/scripts.7e2c9c3d1c6812d64062.js": "8020de8870ba9542468c5c97fb613251c05ec2fc",
+    "https://vzan2012.github.io/angular-project/styles.ee06dbf3156687b2a356.css": "c5c537a8c0e6d23d1a00df9925d51b2f7bf99c4a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
