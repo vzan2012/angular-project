@@ -1,0 +1,15 @@
+{
+    "/movies/": {
+        "target": "https://green-it-pri.herokuapp.com",
+        "secure": true,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/3/discover/movie/?api_key=72c296964eb65073c84ebd4df800f271&language=en-US&sort_by=popularity.asc&include_adult=false&include_video=false": {
+        "target": "https://api.themoviedb.org",
+        "secure": true,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }    
+    
+}

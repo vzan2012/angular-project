@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -17,6 +18,13 @@ import { PopularPeopleSectionComponent } from './popular-people-section/popular-
 import { ContactPageSectionComponent } from './contact-page-section/contact-page-section.component';
 import { ContactSidebarComponent } from './contact-page-section/contact-sidebar/contact-sidebar.component';
 import { ContactContentComponent } from './contact-page-section/contact-content/contact-content.component';
+import { AppRoutingModule } from './app-routing.module';
+
+import { MoviesService } from './movies.service';
+
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,9 +45,13 @@ import { ContactContentComponent } from './contact-page-section/contact-content/
   ],
   imports: [
     BrowserModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    BrowserAnimationsModule,
+    CarouselModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [MoviesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -25,7 +25,7 @@
 		<div class="container w-header-cont p-0">
 			<nav class="navbar navbar-expand-lg navbar-light">
 			  <h1 class="d-none">Voir Videos</h1>
-			  <a class="navbar-brand" href="index.html">
+			  <a class="navbar-brand" routerLink="/home" (click)="creload()">
 			  	<img src="assets/logo.png" alt="Voir Videos" data-toggle="tooltip" title="Welcome to Voir Videos" />
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#w-navbarContent" aria-controls="w-navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,8 @@
 
 			  <div class="collapse navbar-collapse" id="w-navbarContent">
 			    <ul class="navbar-nav ml-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      <li class="nav-item" routerLinkActive="active">
+			        <a class="nav-link" routerLink="/home" (click)="creload()">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="discoverDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,11 +70,11 @@
 			          <a class="dropdown-item" href="#">Something else here</a>
 			        </div>
 			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="people.html">People</a>
+			      <li class="nav-item" routerLinkActive="active">
+			        <a class="nav-link" routerLink="/popular-people">People</a>
 			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="contact.html">Contact</a>
+			      <li class="nav-item" routerLinkActive="active">
+			        <a class="nav-link" routerLink="/contact" (click)="creload()">Contact</a>
 			      </li>				      
 			    </ul>
 			  </div>

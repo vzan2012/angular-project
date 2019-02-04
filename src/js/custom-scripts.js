@@ -18,32 +18,32 @@ $(document).ready(function() {
 	// Header Top - Calc - End
 
 	// Owl Carousel - Movie Slider - Start
-	$('.movie-slider').owlCarousel({
-		nav: true,
-	    loop: true,
-		autoplay: true,
-		autoplayTimeout: 3000,
-		autoplayHoverPause: true,	    
-	    responsiveClass: true,
-	    navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
-	    responsive:{
-	        0:{
-	            items: 1
-	        },
-	        360:{
-	            items: 2
-	        },	        
-	        480:{
-	            items: 2
-	        },
-	        600:{
-	            items: 3
-	        },
-	        1000:{
-	            items: 4
-	        }
-	    }
-	});
+	// $('.movie-slider').owlCarousel({
+	// 	nav: true,
+	//     loop: true,
+	// 	autoplay: true,
+	// 	autoplayTimeout: 3000,
+	// 	autoplayHoverPause: true,	    
+	//     responsiveClass: true,
+	//     navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
+	//     responsive:{
+	//         0:{
+	//             items: 1
+	//         },
+	//         360:{
+	//             items: 2
+	//         },	        
+	//         480:{
+	//             items: 2
+	//         },
+	//         600:{
+	//             items: 3
+	//         },
+	//         1000:{
+	//             items: 4
+	//         }
+	//     }
+	// });
 	// Owl Carousel - Movie Slider - End
 
 	// Contact Us - Page - Start
