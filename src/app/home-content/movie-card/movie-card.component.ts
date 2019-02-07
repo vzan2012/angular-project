@@ -11,12 +11,13 @@ export class MovieCardComponent implements OnInit {
 
   public getMovieCard = []
 
+  public errorMsg;
+
   constructor(private _moviesService: MoviesService) { }
 
   ngOnInit() {
-    this._moviesService.getMovieCard().subscribe(data => this.getMovieCard = data);
-
-    //console.log(this.getMovieCard);
+    this._moviesService.getMovieCard().subscribe(data => this.getMovieCard = data,
+                                                  error => this.errorMsg = error);
   }
 
 }

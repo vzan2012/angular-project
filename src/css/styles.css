@@ -4,6 +4,8 @@
 /*** Google Fonts ***/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 
+@import '../../node_modules/css-star-rating/css/star-rating.css';
+
 /*** General Styles ***/
 
 html {
@@ -287,6 +289,12 @@ body {
   padding-right: 0;
 }
 
+.movie-card .movie-lhs-pic a {
+  display: block;
+  height: 250px;
+  overflow: hidden;
+}
+
 .movie-card .movie-rhs-cont {
   padding-left: 0;
   padding-right: 0;
@@ -345,7 +353,9 @@ body {
 }
 
 .moviestar-rate-display {
+  float: left;
   margin: 5px 0;
+  padding-left: 10px;
 }
 
 .moviestar-rate-display .rating-container {
@@ -422,6 +432,10 @@ body {
 
 .w-cards-lmovienews .lmn-card .card-body {
   margin-top: 15px;
+}
+
+.w-cards-lmovienews .lmn-card img.img-fluid {
+  width: 100%;
 }
 
 .w-cards-p-people .lmn-card .card-body {
@@ -555,11 +569,33 @@ body {
 
 /*** Footer Styles - End ***/
 
+/*** Other Styles - Start ***/
+
+.error-msg {
+  color: #f00;
+  font-weight: bold;
+}
+
+.pg-not-title {
+  color: #333;
+  font-size: 30px;
+  position: relative;
+  margin: 15% auto;
+}
+
+/*** Other Styles - Start ***/
+
+
 /*** Responsive Styles - Start ***/
 @media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
   .movie-lhs-pic img {
     display: block;
     margin: 0 auto;
@@ -587,6 +623,15 @@ body {
     margin: 0 auto;
     width: 40%;
   }
+
+  .moviestar-rate-display {
+    float: none;
+  }
+
+  .movie-card .movie-lhs-pic a {
+    height: auto;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -603,6 +648,23 @@ body {
     text-align: center;
     width: 40%;
   }
+
+  .card-mobile {
+    width: 50%;
+  }
+
+  .movie-ty-wrap .movie-tags {
+    margin-left: 15px;
+  }
+
+  #select-year-opt {
+    margin-bottom: 1rem;
+  }
+
+  .va-link {
+    margin-bottom: 10px;
+  }
+
 }
 
 @media (max-width: 375px) {

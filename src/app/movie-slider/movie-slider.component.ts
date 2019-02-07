@@ -11,6 +11,8 @@ export class MovieSliderComponent implements OnInit {
 
   public getMoviePosters = [];
 
+  public errorMsg;
+
   customOptions: any = {
     	nav: true,
         loop: true,
@@ -26,7 +28,7 @@ export class MovieSliderComponent implements OnInit {
         navText: ['<i class="fa fa-angle-left fa-2x"></i>','<i class="fa fa-angle-right fa-2x"></i>'],
         responsive:{
             0:{
-                items: 1
+                items: 2
             },
             360:{
                 items: 2
@@ -47,7 +49,8 @@ export class MovieSliderComponent implements OnInit {
 
   ngOnInit() {
     this._moviesService.getMoviePosters()
-    .subscribe(data => this.getMoviePosters = data);
+    .subscribe(data => this.getMoviePosters = data,
+                error => this.errorMsg = error);
   }
 
 }

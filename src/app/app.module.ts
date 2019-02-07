@@ -23,8 +23,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { MoviesService } from './movies.service';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { StarRatingModule } from 'levon-angular-star-rating';
 
 import { HttpClientModule } from '@angular/common/http';
+import { MovieDetailedViewComponent } from './movie-detailed-view/movie-detailed-view.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -41,12 +44,15 @@ import { HttpClientModule } from '@angular/common/http';
     PopularPeopleSectionComponent,
     ContactPageSectionComponent,
     ContactSidebarComponent,
-    ContactContentComponent
+    ContactContentComponent,
+    MovieDetailedViewComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     CarouselModule,
+    StarRatingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     AppRoutingModule,
     HttpClientModule

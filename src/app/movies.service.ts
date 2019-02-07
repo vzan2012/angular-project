@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 
 import { IMovies } from './movie';
 import { IMovieCard } from './movie-card';
 
 import { Observable } from 'rxjs';
+import { catchError } from 'rxjs/operators';
+import { throwError } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -17,11 +19,15 @@ export class MoviesService {
   constructor(private http: HttpClient) { }
 
   getMoviePosters(): Observable<IMovies[]> {
-    return this.http.get<IMovies[]>("/movies/");
+    return this.http.get<IMovies[]>("/movies/").pipe(catchError(this.errorHandler));
   }
 
   getMovieCard(): Observable<IMovieCard[]>{
-    return this.http.get<IMovieCard[]>("/3/discover/movie/?api_key=72c296964eb65073c84ebd4df800f271&language=en-US&sort_by=popularity.asc&include_adult=false&include_video=false");
+    return this.http.get<IMovieCard[]>("/movies/").pipe(catchError(this.errorHandler));
+  }
+
+  errorHandler(error: HttpErrorResponse) {
+    return throwError(error.message || "Server Error");
   }
 
 }
